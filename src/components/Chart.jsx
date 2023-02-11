@@ -43,7 +43,7 @@ const Chart = () => {
 											? "hsl(186, 34%, 60%)"
 											: "hsl(10, 79%, 65%)",
 								}}
-								title={amount}
+								title={"$" + amount}
 							></div>
 							<p className="text-xs text-center mt-4 text-[rgba(0,0,0,.4)]">
 								{day}
